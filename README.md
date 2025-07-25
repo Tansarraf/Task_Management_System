@@ -9,6 +9,7 @@
 - Express
 - Swagger/OpenAPI (for API documentation)
 - MySQL (for managing database)
+- Postman (for API testing)
 
 ---
   
