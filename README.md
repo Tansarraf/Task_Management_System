@@ -31,10 +31,10 @@
 - cd Task_Management_System
 
 **2. Install Dependencies**
-For installing the required dependencies, run the following command in project terminal
+- For installing the required dependencies, run the following command in project terminal
 -> npm install *dependency name*
 
-**3. Configure Environment Variables**
+**3. Configure Environment Variables** : 
 In your .env file in root directory, add your MySql credentials like this:
 
 - DB_HOST = localhost
@@ -44,7 +44,7 @@ In your .env file in root directory, add your MySql credentials like this:
 - DB_PORT = 3306
 - PORT = 3000
 
-**4. Setup the MySql database**
+**4. Setup the MySql database** :
 Create a table in MySQL workbench for managing database
 
 CREATE TABLE IF NOT EXISTS tasks (
@@ -55,18 +55,18 @@ CREATE TABLE IF NOT EXISTS tasks (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-**5. Start server**
+**5. Start server** : 
 npm start
 
-**6. Swagger API Docs**
+**6. Swagger API Docs** : 
 Interactive documentation for all the APIs is available at : http://localhost:3000/api-docs
 
 ---
 
-## Contributing
+## Contributing : 
 Have ideas for improvement? Feel free to fork the repository, make changes, and submit a pull request!
 
 ---
 
-## Contact
+## Contact : 
 For any queries or suggestions, reach out via sarraftanishk4@gmail.com or open an issue on GitHub.
