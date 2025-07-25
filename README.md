@@ -37,12 +37,12 @@ For installing the required dependencies, run the following command in project t
 **3. Configure Environment Variables**
 In your .env file in root directory, add your MySql credentials like this:
 
-DB_HOST = localhost
-DB_USER = your_mysql_username
-DB_PASSWORD = your_mysql_password
-DB_NAME = task_db
-DB_PORT = 3306
-PORT = 3000
+- DB_HOST = localhost
+- DB_USER = your_mysql_username
+- DB_PASSWORD = your_mysql_password
+- DB_NAME = task_db
+- DB_PORT = 3306
+- PORT = 3000
 
 **4. Setup the MySql database**
 Create a table in MySQL workbench for managing database
